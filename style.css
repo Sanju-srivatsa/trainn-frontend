@@ -1,0 +1,478 @@
+@font-face {
+    font-family: "Bold";
+    src: url(euclid/EuclidFlex-Bold-WebTrial.woff);
+}
+
+@font-face {
+    font-family: "BoldItalic";
+    src: url(euclid/EuclidFlex-BoldItalic-WebTrial.woff);
+}
+
+@font-face {
+    font-family: "Light";
+    src: url(euclid/EuclidFlex-Light-WebTrial.woff);
+}
+
+@font-face {
+    font-family: "LightItalic";
+    src: url(euclid/EuclidFlex-LightItalic-WebTrial.woff);
+}
+
+@font-face {
+    font-family: "Medium";
+    src: url(euclid/EuclidFlex-Medium-WebTrial.woff);
+}
+
+@font-face {
+    font-family: "MediumItalic";
+    src: url(euclid/EuclidFlex-MediumItalic-WebTrial.woff);
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(euclid/EuclidFlex-Regular-WebTrial.woff);
+}
+
+@font-face {
+    font-family: "RegularItalic";
+    src: url(euclid/EuclidFlex-RegularItalic-WebTrial.woff);
+}
+
+@font-face {
+    font-family: "SemiBold";
+    src: url(euclid/EuclidFlex-Semibold-WebTrial.woff);
+}
+
+@font-face {
+    font-family: "SemiBoldItalic";
+    src: url(euclid/EuclidFlex-SemiboldItalic-WebTrial.woff);
+}
+
+@font-face {
+    font-family: "Thin";
+    src: url(euclid/EuclidFlex-Thin-WebTrial.woff);
+}
+
+@font-face {
+    font-family: "ThinItalic";
+    src: url(euclid/EuclidFlex-ThinItalic-WebTrial.woff);
+}
+
+@font-face {
+    font-family: "UltraLight";
+    src: url(euclid/EuclidFlex-Ultralight-WebTrial.woff);
+}
+
+@font-face {
+    font-family: "UltraLightItalic";
+    src: url(euclid/EuclidFlex-UltralightItalic-WebTrial.woff);
+}
+
+body {
+    background-color: black;
+}
+
+.logo {
+    position: absolute;
+    width: 80px;
+    font-size: 40px;
+    color:#6156E7;
+    height: 32px;
+    left: 130px;
+    top: 36px;
+}
+
+.home {
+    position: absolute;
+    width: 42px;
+    height: 19px;
+    left: 388px;
+    top: 38px;
+
+    font-family: "Thin";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #928E9E;
+}
+
+.caseN {
+    position: absolute;
+    width: 74px;
+    height: 19px;
+    left: 481px;
+    top: 38px;
+
+    font-family: "Thin";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #928E9E;
+}
+
+.pricing {
+    position: absolute;
+    width: 49px;
+    height: 19px;
+    left: 625px;
+    top: 38px;
+
+    font-family: "Thin";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #928E9E;
+}
+
+.support {
+    position: absolute;
+    width: 57px;
+    height: 19px;
+    left: 725px;
+    top: 38px;
+
+    font-family: "Thin";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #928E9E;
+}
+
+.login {
+    position: absolute;
+    width: 43px;
+    height: 19px;
+    left: 1060px;
+    top: 38px;
+
+    font-family: "Thin";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #6156E7;
+}
+
+.try {
+    position: absolute;
+    width: 107px;
+    height: 35px;
+    left: 1153px;
+    top: 30px;
+}
+
+.tff{
+    position: absolute;
+    width: 77px;
+    height: 19px;
+    left: 1168px;
+    top: 38px;
+    font-family: "UltraLight";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+div.try {
+    position: absolute;
+    width: 107px;
+    height: 35px;
+    left: 1153px;
+    top: 30px;
+
+    background: #6156E7;
+    border-radius: 5px;
+}
+
+.CaS {
+    position: absolute;
+    width: 408px;
+    height: 63px;
+    left: 514px;
+    top: 136px;
+
+    font-family: "Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 63px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.nested {
+    position: absolute;
+    width: 776px;
+    height: 278px;
+    left: 332px;
+    top: 199px;
+
+    font-family: "SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 139px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* h3.nested {
+
+} */
+
+.cNested {
+    position: absolute;
+    width: 776px;
+    height: 139px;
+    left: 332px;
+    top: 338px;
+    background: linear-gradient(90deg, #6156E7 0%, #F8AF9F 51.56%, #AE3467 100%);
+    font-family: "SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 139px;
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.button {
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 630px;
+    top: 528px;
+    background: linear-gradient(0deg, #6156E7, #6156E7);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.txtButton {
+    position: absolute;
+    width: 105px;
+    height: 32px;
+    left: 668px;
+    top: 542px;
+
+    font-family: "Thin";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.twotext {
+    position: absolute;
+    width: 519px;
+    height: 91px;
+    left: 461px;
+    top: 648px;
+
+    font-family: "Regular";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 42px;
+    /* or 105% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.two2text {
+
+    font-family: Regular"";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 42px;
+    /* or 105% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.create1 {
+    position: absolute;
+    width: 70px;
+    height: 23px;
+    left: 195px;
+    top: 899px;
+
+    font-family: "Thin";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.twotext1 {
+    position: absolute;
+    width: 412px;
+    height: 102px;
+    left: 195px;
+    top: 922px;
+
+    font-family: "SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+
+    color: #FFFFFF;
+}
+
+.inner {
+    background: linear-gradient(0deg, #6156E7, #6156E7);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    background-clip: text;
+    -moz-text-fill-color: transparent;
+
+    font-family: "SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+}
+
+.img1 {
+    position: absolute;
+    width: 540px;
+    height: 460px;
+    left: 760px;
+    top: 829px;
+}
+
+.img2 {
+    position: absolute;
+    width: 610px;
+    height: 400px;
+    left: 195px;
+    top: 1429px;
+}
+
+.img3 {
+    position: absolute;
+    width: 525px;
+    height: 390px;
+    left: 760px;
+    top: 1989px;
+}
+
+.create2 {
+    position: absolute;
+    width: 70px;
+    height: 23px;
+    left: 1190px;
+    top: 1429px;
+
+    font-family: "Thin";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.twotext2 {
+    position: absolute;
+    width: 339px;
+    height: 102px;
+    left: 921px;
+    top: 1452px;
+
+    font-family: "SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.create3 {
+    position: absolute;
+    width: 70px;
+    height: 23px;
+    left: 195px;
+    top: 1989px;
+
+    font-family: "Thin";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.twotext3 {
+    position: absolute;
+    width: 337px;
+    height: 102px;
+    left: 195px;
+    top: 2012px;
+
+    font-family: "SemiBold";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 51px;
+
+    color: #FFFFFF;
+}
